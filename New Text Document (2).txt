@@ -1,23 +1,24 @@
 
 * push data workspace to git *
-git init	//initialize git to this repository
-git status //untracked stage
-git add  .	//add all file to git
-git status //staging/tracked area
-git commit -m "first commit" 		// save data 
+->git init	//initialize git to this repository
+->git status //untracked stage
+->git add  .	//add all file to git
+->git status //staging/tracked area
+->git commit -m "first commit" 		// save data 
+
 // create repository in github only with name  not readme file select 
-git remote add origin https://github.com/ganeshshinde0612/something.git
-git push -u origin master //push to the git above url
+->git remote add origin https://github.com/ganeshshinde0612/something.git
+->git push -u origin master //push to the git above url
 
 *git reset //cancel git operation pushing data
 
 *pull data in git to workspace *
-git pull
+->git pull
  
 *git branch *
-  git branch 	// show all branches
-  git branch branchname // create new branch
- git checkout  branchname //switch to new branch 
+  ->git branch 	// show all branches
+  ->git branch branchname // create new branch
+  ->git checkout  branchname //switch to new branch 
 
 *fork*
  create project copy git to another git 
