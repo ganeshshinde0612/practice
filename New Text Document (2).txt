@@ -1,3 +1,4 @@
+// my name is practice folder
 * push data workspace to git *
 git init	//initialize git to this repository
 git status //untracked stage
